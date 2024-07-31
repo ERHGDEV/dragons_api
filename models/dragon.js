@@ -5,15 +5,39 @@ const dragonSchema = new mongoose.Schema({
         type: String,
         required: true
     },
+    called: {
+        type: String,
+        required: false
+    },
     riders: {
         type: String,
         required: true
-    },  
-    Notes: {
+    },
+    colors: {
+        type: String,
+        required: true
+    },
+    notes: {
+        type: String,
+        required: true
+    },
+    hatched: {
         type: String,
         required: true
     },
     died: {
+        type: String,
+        required: true
+    },
+    books: {
+        type: String,
+        required: true
+    },
+    tv_series: {
+        type: String,
+        required: true
+    },
+    image: {
         type: String,
         required: true
     }
